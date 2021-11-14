@@ -1,0 +1,13 @@
+# Target labels
+ project_nrappkit
+# Source files and their labels
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/CMakeFiles/project_nrappkit
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/CMakeFiles/project_nrappkit.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/CMakeFiles/project_nrappkit-complete.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-build.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-configure.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-download.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-install.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-mkdir.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-patch.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-update.rule

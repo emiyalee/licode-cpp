@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/home/emiya/workspace/c++/project/licode-cpp/build/CMakeFiles/gtest
+/home/emiya/workspace/c++/project/licode-cpp/build/CMakeFiles/gtest.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/CMakeFiles/gtest-complete.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/gmock/src/gtest-stamp/gtest-build.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/gmock/src/gtest-stamp/gtest-configure.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/gmock/src/gtest-stamp/gtest-download.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/gmock/src/gtest-stamp/gtest-install.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/gmock/src/gtest-stamp/gtest-mkdir.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/gmock/src/gtest-stamp/gtest-patch.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/gmock/src/gtest-stamp/gtest-update.rule

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/CMakeFiles/project_nrappkit"
+		},
+		{
+			"file" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/CMakeFiles/project_nrappkit.rule"
+		},
+		{
+			"file" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/CMakeFiles/project_nrappkit-complete.rule"
+		},
+		{
+			"file" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-build.rule"
+		},
+		{
+			"file" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-configure.rule"
+		},
+		{
+			"file" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-download.rule"
+		},
+		{
+			"file" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-install.rule"
+		},
+		{
+			"file" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-mkdir.rule"
+		},
+		{
+			"file" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-patch.rule"
+		},
+		{
+			"file" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit/src/project_nrappkit-stamp/project_nrappkit-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"project_nrappkit"
+		],
+		"name" : "project_nrappkit"
+	}
+}

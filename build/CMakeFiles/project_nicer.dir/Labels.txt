@@ -1,0 +1,13 @@
+# Target labels
+ project_nicer
+# Source files and their labels
+/home/emiya/workspace/c++/project/licode-cpp/build/CMakeFiles/project_nicer
+/home/emiya/workspace/c++/project/licode-cpp/build/CMakeFiles/project_nicer.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/CMakeFiles/project_nicer-complete.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-stamp/project_nicer-build.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-stamp/project_nicer-configure.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-stamp/project_nicer-download.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-stamp/project_nicer-install.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-stamp/project_nicer-mkdir.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-stamp/project_nicer-patch.rule
+/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-stamp/project_nicer-update.rule

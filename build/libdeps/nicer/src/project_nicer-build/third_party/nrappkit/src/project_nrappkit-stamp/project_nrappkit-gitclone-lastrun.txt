@@ -1,0 +1,3 @@
+repository='https://github.com/lynckia/nrappkit.git'
+module=''
+tag='origin'

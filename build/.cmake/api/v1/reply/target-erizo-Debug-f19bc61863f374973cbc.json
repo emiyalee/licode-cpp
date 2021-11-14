@@ -1,0 +1,1498 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "erizo/liberizo.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_dependencies",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"erizo/CMakeLists.txt",
+			"third_party/nicer.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 135,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -Wall -std=c++17  -DBOOST_THREAD_PROVIDES_FUTURE -DBOOST_THREAD_PROVIDES_FUTURE_CONTINUATION -DBOOST_THREAD_PROVIDES_FUTURE_WHEN_ALL_WHEN_ANY -DWEBRTC_POSIX -Werror -fPIC -DWEBRTC_LINUX -DNO_REG_RPC=1 -DHAVE_VFPRINTF=1 -DRETSIGTYPE=void -DNEW_STDIO -DHAVE_STRDUP=1 -DHAVE_STRLCPY=1 -DHAVE_LIBM=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME_H=1 -D__UNUSED__=\"__attribute__((unused))\" -DLINUX -DNOLINUXIF -g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "erizo_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/usr/include/glib-2.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/erizo"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/event"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/log"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/plugin"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/registry"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/share"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/stats"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/util"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/util/libekr"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/port/generic/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/port/generic/include/sys"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/crypto"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/ice"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/net"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/stun"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/port/linux/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/port/linux/include/sys"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/third_party/webrtc/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				25,
+				27,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				41,
+				45,
+				47,
+				53,
+				54,
+				56,
+				64,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				102,
+				104,
+				106,
+				108,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "erizo_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/usr/include/glib-2.0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/erizo"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/event"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/log"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/plugin"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/registry"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/share"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/stats"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/util"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/util/libekr"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/port/generic/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/port/generic/include/sys"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/crypto"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/ice"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/net"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/stun"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/port/linux/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/include/port/linux/include/sys"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/emiya/workspace/c++/project/licode-cpp/third_party/webrtc/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				43
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "project_nicer::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "webrtc::@54caef046c6779417ecf"
+		}
+	],
+	"id" : "erizo::@10043f5301284119ffdc",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lglib-2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgobject-2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgthread-2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lsrtp2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libnice.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgthread-2.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lssl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcrypto",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../third_party/webrtc/src/libwebrtc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libdeps/nicer/src/project_nicer-build/nicer/libnicer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../libdeps/nicer/src/project_nicer-build/third_party/nrappkit/lib/libnrappkit.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-llog4cxx",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lsrtp2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libnice.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lssl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcrypto",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-llog4cxx",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "erizo",
+	"nameOnDisk" : "liberizo.so",
+	"paths" : 
+	{
+		"build" : "erizo",
+		"source" : "erizo"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				24,
+				26,
+				28,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				42,
+				44,
+				46,
+				48,
+				49,
+				50,
+				51,
+				52,
+				55,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				65,
+				66,
+				67,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				101,
+				103,
+				105,
+				107,
+				109,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132,
+				134,
+				136,
+				138,
+				140,
+				142,
+				144,
+				146,
+				148,
+				150,
+				152,
+				154,
+				156
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				25,
+				27,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				41,
+				43,
+				45,
+				47,
+				53,
+				54,
+				56,
+				64,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				102,
+				104,
+				106,
+				108,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "erizo/DefaultValues.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/DtlsTransport.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/DtlsTransport.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/IceConnection.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/IceConnection.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/LibNiceConnection.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/LibNiceConnection.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/MediaDefinitions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/MediaStream.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/MediaStream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/NicerConnection.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/NicerConnection.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/OneToManyProcessor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/OneToManyProcessor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/SdpInfo.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/SdpInfo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/SrtpChannel.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/SrtpChannel.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/Stats.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/Stats.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/StringUtil.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/StringUtil.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/Transceiver.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/Transceiver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/Transport.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/UnencryptedTransport.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/UnencryptedTransport.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/WebRtcConnection.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/WebRtcConnection.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/bandwidth/BandwidthDistributionAlgorithm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/bandwidth/BwDistributionConfig.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/bandwidth/BwDistributionConfig.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/bandwidth/ConnectionQualityCheck.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/bandwidth/ConnectionQualityCheck.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/bandwidth/MaxVideoBWDistributor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/bandwidth/MaxVideoBWDistributor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/bandwidth/StreamPriorityBWDistributor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/bandwidth/StreamPriorityBWDistributor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/bandwidth/TargetVideoBWDistributor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/bandwidth/TargetVideoBWDistributor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/dtls/DtlsClient.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/dtls/DtlsSocket.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/dtls/DtlsSocket.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "erizo/dtls/bf_dwrap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/dtls/bf_dwrap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/handlers/HandlerImporter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/handlers/HandlerImporter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/handlers/handlers/LoggerHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/handlers/handlers/LoggerHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/lib/Base64.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/lib/Clock.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/lib/ClockUtils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/lib/LibNiceInterface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/lib/LibNiceInterfaceImpl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/lib/NicerInterface.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/lib/NicerInterface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/lib/TokenBucket.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/lib/TokenBucket.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/logger.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/pipeline/Handler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/pipeline/HandlerContext-inl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/pipeline/HandlerContext.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/pipeline/HandlerManager.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/pipeline/Pipeline-inl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/pipeline/Pipeline.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/pipeline/Pipeline.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/pipeline/Service.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/pipeline/ServiceContext-inl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/pipeline/ServiceContext.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/BandwidthEstimationHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/BandwidthEstimationHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/FakeKeyframeGeneratorHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/FakeKeyframeGeneratorHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/FecReceiverHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/FecReceiverHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/LayerBitrateCalculationHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/LayerBitrateCalculationHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/LayerDetectorHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/LayerDetectorHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/PacketBufferService.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/PacketBufferService.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/PacketCodecParser.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/PacketCodecParser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/PeriodicPliHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/PeriodicPliHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/PliPacerHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/PliPacerHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/PliPriorityHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/PliPriorityHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/QualityFilterHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/QualityFilterHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/QualityManager.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/QualityManager.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtcpAggregator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtcpAggregator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtcpFeedbackGenerationHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtcpFeedbackGenerationHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtcpForwarder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtcpForwarder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtcpNackGenerator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtcpNackGenerator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtcpProcessor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtcpProcessorHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtcpProcessorHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtcpRrGenerator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtcpRrGenerator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpExtensionProcessor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpExtensionProcessor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpH264Parser.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpH264Parser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpHeaders.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpPacketQueue.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpPacketQueue.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpPaddingGeneratorHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpPaddingGeneratorHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpPaddingManagerHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpPaddingManagerHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpPaddingRemovalHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpPaddingRemovalHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpRetransmissionHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpRetransmissionHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpSink.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpSink.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpSlideShowHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpSlideShowHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpSource.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpSource.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpTrackMuteHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpTrackMuteHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpUtils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpUtils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpVP8Fragmenter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpVP8Fragmenter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpVP8Parser.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpVP8Parser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/RtpVP9Parser.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/RtpVP9Parser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/SRPacketHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/SRPacketHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/SenderBandwidthEstimantionHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/SenderBandwidthEstimationHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/SequenceNumberTranslator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/SequenceNumberTranslator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/rtp/StatsHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/rtp/StatsHandler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/stats/StatNode.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/stats/StatNode.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/thread/IOThreadPool.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/thread/IOThreadPool.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/thread/IOWorker.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/thread/IOWorker.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/thread/Scheduler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/thread/Scheduler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/thread/ThreadPool.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/thread/ThreadPool.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "erizo/thread/Worker.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "erizo/thread/Worker.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

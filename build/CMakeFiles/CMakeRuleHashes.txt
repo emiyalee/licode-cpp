@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+5da3deb9a40ee7d5fd7d774ac3ebb9b8 CMakeFiles/doc
+fe5fc381685a82aff8fcfd851f9bdabd CMakeFiles/gtest
+053931bc574b40c232515d325d68a6b0 CMakeFiles/gtest-complete
+ff7cd21755faea6fe9fb97711b767659 CMakeFiles/lint
+fe5fc381685a82aff8fcfd851f9bdabd CMakeFiles/project_nicer
+1d0b0d669b288a75aa0c66bc7d8fa044 CMakeFiles/project_nicer-complete
+c5a9ad0bace20670e612ab18f91416a0 libdeps/gmock/src/gtest-stamp/gtest-build
+40e910bf59ee8abb79fb89fd5d36592d libdeps/gmock/src/gtest-stamp/gtest-configure
+d327be862dad276be503f8011e7f76d3 libdeps/gmock/src/gtest-stamp/gtest-download
+cf1ea05467e5d44757cb469196072ae9 libdeps/gmock/src/gtest-stamp/gtest-install
+aa71de461bef036c85cb3b0691adf856 libdeps/gmock/src/gtest-stamp/gtest-mkdir
+77f508e4826788797e9ed51eb102db18 libdeps/gmock/src/gtest-stamp/gtest-patch
+23ca66ab51074e2b801ef7c5ef3e54c2 libdeps/gmock/src/gtest-stamp/gtest-update
+115c11f5586a0af047c2a55e4f340d02 libdeps/nicer/src/project_nicer-stamp/project_nicer-build
+581413ce430889873ac826ac84fcb225 libdeps/nicer/src/project_nicer-stamp/project_nicer-configure
+996cf58f8e24a779d22d535ec21a1097 libdeps/nicer/src/project_nicer-stamp/project_nicer-download
+c0ab085e0bea6f67072b99ce56a536c6 libdeps/nicer/src/project_nicer-stamp/project_nicer-install
+f8c5996f64ad622b6c781c8476704d07 libdeps/nicer/src/project_nicer-stamp/project_nicer-mkdir
+222c27ce74e82de41567c939b074da68 libdeps/nicer/src/project_nicer-stamp/project_nicer-patch
+63718ba88103fe81a8d28bda6e843f0f libdeps/nicer/src/project_nicer-stamp/project_nicer-update

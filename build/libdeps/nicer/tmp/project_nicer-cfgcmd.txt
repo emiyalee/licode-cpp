@@ -1,0 +1,1 @@
+cmd='/home/emiya/.local/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer;-DTHIRD_PARTY_LIB=;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
