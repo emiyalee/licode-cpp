@@ -1,3 +1,0 @@
-repository='https://github.com/lynckia/nicer.git'
-module=''
-tag='origin'

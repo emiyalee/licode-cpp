@@ -1,1 +1,0 @@
-cmd='/home/emiya/.local/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/gmock;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

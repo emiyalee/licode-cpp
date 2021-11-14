@@ -1,1 +1,0 @@
-cmd='/home/emiya/.local/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/emiya/workspace/c++/project/licode-cpp/build/libdeps/nicer/src/project_nicer-build/third_party/nrappkit;-DCMAKE_C_FLAGS="-DUSE_EPOLL=1";-DTHIRD_PARTY_LIB=;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
