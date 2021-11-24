@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.1)
 
 find_package(PkgConfig)
 #functions
@@ -138,9 +138,9 @@ include("${CMAKE_CURRENT_SOURCE_DIR}/third_party/nicer.cmake")
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/erizo")
 
 ## Examples
-if(COMPILE_EXAMPLES)
-  add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/examples")
-endif(COMPILE_EXAMPLES)
+#if(COMPILE_EXAMPLES)
+add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/examples")
+#endif(COMPILE_EXAMPLES)
 
 ## Tests
 #if(${ERIZO_BUILD_TYPE} STREQUAL "sanitizer")
